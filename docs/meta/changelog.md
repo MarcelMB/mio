@@ -1,5 +1,12 @@
 # Changelog
 
+## Upcoming
+
+- [`#141`](https://github.com/miniscope/mio/pull/141) - add cli commands for manipulating configs:
+  - `mio config create` to create a new config from a config model (use --list) to show available models
+  - `mio config path` to show the path to a config
+  - `mio config open` to open the config in default text editor
+
 ## 0.8
 
 ### 0.8.1 - 2025-09-25 - Bugfix for frame reconstruction, CLI updates, more metadata for `stream`

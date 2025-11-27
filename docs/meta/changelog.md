@@ -1,11 +1,11 @@
 # Changelog
 
 ## Upcoming
-
 - [`#141`](https://github.com/miniscope/mio/pull/141) - add cli commands for manipulating configs:
   - `mio config create` to create a new config from a config model (use --list) to show available models
   - `mio config path` to show the path to a config
   - `mio config open` to open the config in default text editor
+- [`#142`](https://github.com/miniscope/mio/pull/142) - Add NTP time synchronization feature. NTP is an optional dependency - install with `pip install mio[ntp]`
 
 ## 0.8
 
